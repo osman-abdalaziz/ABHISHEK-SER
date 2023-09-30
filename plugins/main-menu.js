@@ -89,37 +89,15 @@ ${readMore}
 │ _${usedPrefix}fb *link*_
 ╰─────────────⦁
 
-╭───❮ *𝙴𝙲𝙾𝙽𝙾𝙼𝚈 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}claim/daily_
-│ _${usedPrefix}weekly_
-│ _${usedPrefix}monthly_
-│ _${usedPrefix}leaderboard_
-│ _${usedPrefix}bet_
-│ _${usedPrefix}heal_
-│ _${usedPrefix}craft_
-│ _${usedPrefix}balance_
-│ _${usedPrefix}shop_
-│ _${usedPrefix}sell_
-│ _${usedPrefix}adventure_
-│ _${usedPrefix}opencrate_
-│ _${usedPrefix}mine_
-│ _${usedPrefix}work_
-│ _${usedPrefix}transfer_
-│ _${usedPrefix}todiamond_
-│ _${usedPrefix}tomoney_
-╰─────────────⦁
-
 ╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}question_
 │ _${usedPrefix}character_
 │ _${usedPrefix}truth_
 │ _${usedPrefix}dare_
 │ _${usedPrefix}flirt_
-│ _${usedPrefix}gay_
 │ _${usedPrefix}meme_
 │ _${usedPrefix}ship_
 │ _${usedPrefix}kill_
-│ _${usedPrefix}kiss_
 │ _${usedPrefix}pat_
 │ _${usedPrefix}slap_
 │ _${usedPrefix}waste_
@@ -131,7 +109,6 @@ ${readMore}
 ╰─────────────⦁
 
 ╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}toanime_
 │ _${usedPrefix}tomp3_
 │ _${usedPrefix}toimg_
 │ _${usedPrefix}tovid_
@@ -170,44 +147,6 @@ ${readMore}
 │ _${usedPrefix}reverse_
 │ _${usedPrefix}squrrel_
 │ _${usedPrefix}slow_
-╰─────────────⦁
-
-╭───❮ *𝙰𝙽𝙸𝙼𝙴 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}waifu_
-│ _${usedPrefix}neko_
-│ _${usedPrefix}loli_
-│ _${usedPrefix}naruto_
-│ _${usedPrefix}itachi_
-│ _${usedPrefix}akira_
-│ _${usedPrefix}asuna_
-│ _${usedPrefix}akiyama_
-│ _${usedPrefix}boruto_
-│ _${usedPrefix}hornycard_
-│ _${usedPrefix}ayuzawa_
-│ _${usedPrefix}anna_
-│ _${usedPrefix}chiho_
-│ _${usedPrefix}chitoge_
-│ _${usedPrefix}deidara_
-│ _${usedPrefix}erza_
-│ _${usedPrefix}elaina_
-│ _${usedPrefix}emilia_
-│ _${usedPrefix}hestia_
-│ _${usedPrefix}hinata_
-│ _${usedPrefix}inori_
-│ _${usedPrefix}isuzu_
-│ _${usedPrefix}kagura_
-│ _${usedPrefix}kaori_
-│ _${usedPrefix}keneki_
-│ _${usedPrefix}kurumi_
-│ _${usedPrefix}madara_
-│ _${usedPrefix}mikasa_
-│ _${usedPrefix}miku_
-│ _${usedPrefix}minato_
-│ _${usedPrefix}nezuko_
-│ _${usedPrefix}sagiri_
-│ _${usedPrefix}sasuke_
-│ _${usedPrefix}sakura_
-│ _${usedPrefix}kotori_
 ╰─────────────⦁
 
 ╭───❮ *𝙶𝙰𝙼𝙴 𝙼𝙴𝙽𝚄* ❯
@@ -252,19 +191,7 @@ ${readMore}
 │ _${usedPrefix}alexa_
 │ _${usedPrefix}itunes_
 │ _${usedPrefix}technews_
-╰─────────────⦁
-
-╭───❮ *𝙽𝚂𝙵𝚆 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}on nsfw_
-│ _${usedPrefix}off nsfw_
-│ _${usedPrefix}hentais *text*_
-│ _${usedPrefix}xnxxdl *link*_
-╰────────────⦁
-
-╭───❮  *🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁* ❯
-│      𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈
-│   𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷☘️
-╰────────────⦁`  
+╰─────────────⦁` 
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react('📃')
 }
