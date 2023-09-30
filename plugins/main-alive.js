@@ -40,12 +40,8 @@ let str = `
 ╰────────────⦁
 │ *Bot Name* : ${botname}
 │ *Owner Name* : ${author}
-│ *Developer Name* : 𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷
-│ *Platform* : linux
+│ *Developer Name* : Dr. Osman Abdalaziz
 │ *Uptime* : ${uptime}
-│ *Experience:* ${exp}
-│ *Rank:* ${role}
-│ *Diamonds:* ${diamond}
 │ *Total Users:* ${rtotalreg}
 ╰────────────⦁
 │ *User Info👤*
