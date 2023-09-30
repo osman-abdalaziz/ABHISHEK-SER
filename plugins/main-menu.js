@@ -18,7 +18,6 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}groups_
 │ _${usedPrefix}blocklist_
 │ _${usedPrefix}listprem_
-╰─────────────⦁
 
 ╭───❮ *𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}*on/off* public_
@@ -44,8 +43,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}resetuser_
 │ _${usedPrefix}getfile_
 │ _${usedPrefix}getplugin_
-╰─────────────⦁
-${readMore} 
+
 ╭───❮ *𝙶𝚁𝙾𝚄𝙿 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}kick *@tag*_
 │ _${usedPrefix}promote *@tag*_
@@ -70,7 +68,6 @@ ${readMore}
 │ _${usedPrefix}kicknum_
 │ _${usedPrefix}group *open/close*_
 │ _${usedPrefix}tagall_
-╰─────────────⦁
 
 ╭───❮ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}play_
@@ -87,10 +84,8 @@ ${readMore}
 │ _${usedPrefix}tiktokstalk_
 │ _${usedPrefix}spotify_
 │ _${usedPrefix}fb *link*_
-╰─────────────⦁
 
 ╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}question_
 │ _${usedPrefix}character_
 │ _${usedPrefix}truth_
 │ _${usedPrefix}dare_
@@ -106,13 +101,11 @@ ${readMore}
 │ _${usedPrefix}ytcomment_
 │ _${usedPrefix}stupid_
 │ _${usedPrefix}lolicon_
-╰─────────────⦁
 
 ╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}tomp3_
 │ _${usedPrefix}toimg_
 │ _${usedPrefix}tovid_
-╰─────────────⦁
 
 ╭───❮ *𝚁𝙰𝙽𝙳𝙾𝙼 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bts_
@@ -134,7 +127,6 @@ ${readMore}
 │ _${usedPrefix}wpmountain_
 │ _${usedPrefix}wpgaming_
 │ _${usedPrefix}wprandom_
-╰─────────────⦁
 
 ╭───❮ *𝙰𝚄𝙳𝙸𝙾 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bass_
@@ -147,7 +139,6 @@ ${readMore}
 │ _${usedPrefix}reverse_
 │ _${usedPrefix}squrrel_
 │ _${usedPrefix}slow_
-╰─────────────⦁
 
 ╭───❮ *𝙶𝙰𝙼𝙴 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}tictactoe_
@@ -157,7 +148,6 @@ ${readMore}
 │ _${usedPrefix}ppt_
 │ _${usedPrefix}slot_
 │ _${usedPrefix}casino_
-╰─────────────⦁
 
 ╭───❮ *𝚂𝚃𝙸𝙲𝙺𝙴𝚁  𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}sticker_
@@ -166,7 +156,6 @@ ${readMore}
 │ _${usedPrefix}getsticker_
 │ _${usedPrefix}emix_
 │ _${usedPrefix}attp_
-╰─────────────⦁
 
 ╭───❮ *𝚃𝙾𝙾𝙻𝚂 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}autosticker_
@@ -191,7 +180,7 @@ ${readMore}
 │ _${usedPrefix}alexa_
 │ _${usedPrefix}itunes_
 │ _${usedPrefix}technews_
-╰─────────────⦁` 
+` 
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react('📃')
 }
